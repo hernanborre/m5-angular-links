@@ -93,79 +93,6 @@ Next, crear variables (atributos) y el constructor y mostrarlos / llamarlos desd
 
 Crear un atributo edad, dos botones click( ) que llame a un método / función que aumente la edad y un ngIf que muestre rojo / verde el css dependiendo si es es mayor de edad!
 
-![Screen Shot 2022-01-05 at 16.57.35.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7a245993-7b11-4d9a-9126-3cf28083715c/Screen_Shot_2022-01-05_at_16.57.35.png)
-
-### **@Input()**
-
-![Screen Shot 2022-01-09 at 21.42.26.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6978e017-ea43-4410-9fb8-89ada9dfd09a/Screen_Shot_2022-01-09_at_21.42.26.png)
-
-eventos entre parentesis se ponen 
-
-![Screen Shot 2022-01-05 at 17.01.46.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e558afdd-0b46-432e-86a7-80fa8bc8000e/Screen_Shot_2022-01-05_at_17.01.46.png)
-
-![Screen Shot 2022-01-05 at 17.01.37.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/22b50319-f485-467e-b335-868200e1b38f/Screen_Shot_2022-01-05_at_17.01.37.png)
-
-**ID DE ELEMENTOS PERO DESDE ANGULAR**
-
-#idParaSerReferenciado en Angular
-
-newUser.value = ‘’
-
-newUser.focus()
-
-return false
-
-![Screen Shot 2022-01-05 at 17.07.58.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3ad3eb45-023e-4d5a-a4f3-32f13ce076b9/Screen_Shot_2022-01-05_at_17.07.58.png)
-
-### DATA BINDING (ngModel)
-
-![Screen Shot 2022-01-05 at 17.13.17.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/77115e96-f464-4d72-bbf8-2aaca555a76f/Screen_Shot_2022-01-05_at_17.13.17.png)
-
-Hay que activar esta funcionalidad desde el **app.module.ts**
-
-**import { FormsModule } from ‘@angular/forms’**
-
-y la agregarmos a la sección de abajo de **imports:**
-
----
-
-### **SERVICIOS**
-
-**ng generate service nombreDelServicio**
-
-jsonplaceholder typeicode
-
-En el service creado (**nombreDelServicio.service.ts)** 
-
-import { HttpClient } from ‘@angular/common/http’ 
-
-Hay que importar y declarar en (providers: ) del Modulo todos los servicios que queramos usar
-
----
-
-![Screen Shot 2022-01-05 at 17.23.43.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/22f4c121-21b1-421c-a451-30277c39c137/Screen_Shot_2022-01-05_at_17.23.43.png)
-
-### **ROUTER (enrutador)**
-
-![Screen Shot 2022-01-05 at 17.32.07.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4033b5eb-209e-45ae-8205-f1f03badd566/Screen_Shot_2022-01-05_at_17.32.07.png)
-
-![Screen Shot 2022-01-05 at 17.33.38.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b856d440-5625-4a72-a556-bb6a38941d39/Screen_Shot_2022-01-05_at_17.33.38.png)
-
-**ng generate component about**
-
-![Screen Shot 2022-01-05 at 17.35.56.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/64330a58-094d-479d-902f-cf310ecad6e0/Screen_Shot_2022-01-05_at_17.35.56.png)
-
-**ng build --prod**   
-
-(esto transpila toda la app para código que se pueda ejecutar en cualquier navegador )
-
-**Estructura Arquitectura ANGULAR APP**
-
-[https://www.youtube.com/watch?v=CitMo3hip6Y&list=PLU8oAlHdN5BnNAe8zXnuBNzKID39DUwcO&index=5&ab_channel=pildorasinformaticas](https://www.youtube.com/watch?v=CitMo3hip6Y&list=PLU8oAlHdN5BnNAe8zXnuBNzKID39DUwcO&index=5&ab_channel=pildorasinformaticas)
-
-![Screen Shot 2022-01-05 at 18.04.53.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/39225ceb-e081-4e99-9435-b65aa340be88/Screen_Shot_2022-01-05_at_18.04.53.png)
-
-![Screen Shot 2022-01-05 at 18.09.59.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/51651b5a-b787-45f0-8f57-10e333ee495c/Screen_Shot_2022-01-05_at_18.09.59.png)
 
 **EXTENSIONES DE VS CODE** 
 
@@ -179,11 +106,9 @@ Template reference value (# hashtags con IDs del DOM)
 
 Property Binding
 
-![Screen Shot 2022-01-05 at 18.28.14.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1f2c1e97-518c-40f5-bf39-9753c548f23a/Screen_Shot_2022-01-05_at_18.28.14.png)
 
 **Service (para llamar a Datos entre API, etc)**
 
-![Screen Shot 2022-01-08 at 00.16.49.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6dcc8d17-7ed7-4f4d-a41a-316943ed9ed6/Screen_Shot_2022-01-08_at_00.16.49.png)
 
 Observable (rxjs) → es un flujo de datos en el futuro (es como
 
